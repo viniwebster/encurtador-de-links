@@ -1,0 +1,280 @@
+@import url('style.css');
+
+@media screen and (max-width: 768px) {
+    
+    .header__container{
+        justify-content: space-around;
+    }
+    
+    .login__container{
+        display: flex;
+        gap: 20px;      
+    }
+
+    /* landing page */
+
+    .landing__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .landing__infos{
+        padding-left: 30px;
+        width: 50%;
+    }
+
+    .landing__container-image{
+        width: 40%;
+    }
+    
+    .input__container{
+        width: 80%;
+        margin: auto;
+    }
+
+    .link__container{
+       width: 83%;
+       margin: auto;
+       justify-content: center;
+       flex-wrap: wrap;
+       margin-top: 20px;
+    }
+    
+    .link-item-convertido{
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .button_copy{
+        width: 100%;
+    }
+    
+
+
+    /* infos */
+
+    .infos__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .infos__card{
+        width: 80%;
+    }
+    
+
+    /* footer */
+
+    .footer__container{
+        max-width: 1110px;
+        margin: auto; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;   
+        align-items: start;
+    }
+    
+    .footer__itens-container{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .footer_socials{
+        margin-top: 30px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 430px) {
+    
+    .header__container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .logo__mobile{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+
+    .menuMobile{
+        width: 32px;
+        display: block;
+    }
+
+    .logo__container{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .nav__container{
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+        text-align: center;
+        width: 80%;
+        margin-top: 32px;
+        padding: 2rem 0;
+        background-color: var(--cor-principal2);
+        border-radius: 15px;
+    }
+
+    .nav__container ul{
+        flex-direction: column;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var( --cor-fonte-clara);
+    }
+    
+    .login__container{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+
+
+    /* landing page */
+
+    .landing__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .landing__infos{
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .landing__tittle{
+        font-size: 2.5rem;
+        margin: auto;
+    }
+
+    .landing__container-image{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .landing__imagem{
+        width: 100%;
+    }
+    
+    
+    /* input */
+
+
+    .input__container{
+        width: 70%;
+        margin: auto;
+        background-image: url('images/bg-shorten-mobile.svg') no-repeat;
+    }
+
+    .input__item{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .search{
+        width: 100%;
+    }
+
+    .input__buton{
+       flex: 1;
+       padding: 1rem 0;
+    }
+    
+
+
+    .link__container{
+       width: 78%;
+       justify-content: center;
+       flex-wrap: wrap;
+       margin-top: 20px;
+    }
+    
+    .link-item-convertido{
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .button_copy{
+        width: 100%;
+    }
+    
+
+
+    /* infos */
+
+    .infos__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .infos__card{
+        width: 80%;
+    }
+    
+    /* boot */
+
+    .boost__container h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* footer */
+
+    .footer__container{
+        max-width: 1110px;
+        margin: auto; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;   
+        gap: 30px;
+    }
+    
+    .footer__itens-container{
+        display: flex;
+        gap: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+    
+    .footer__container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer__itens-container{
+        flex-direction: column;
+    }
+
+    .landing__button a{
+        padding: .8rem 1rem;
+    }
+
+}

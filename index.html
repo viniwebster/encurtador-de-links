@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsivo.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+
+<body>
+
+  <header id="header">
+
+    <div class="header__container">
+    
+    <div class="logo__mobile">
+      <a href="#">
+        <img class="logo" src="images/logo.svg" alt="logo Shortly" srcset="">
+      </a>
+
+      <div class="menuMobile">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+      <nav class="nav__container">
+        <ul class="nav__container-itens">
+          <li> <a class="nav__itens" href="#">Features</a> </li>
+          <li> <a class="nav__itens" href="#">Pricing</a> </li>
+          <li> <a class="nav__itens" href="#">Resources</a> </li>
+        </ul>
+        <div class="login__container">
+          <div class="login"><a href="#">Login</a></div>
+          <div class="sing-up"><a href="#">Sing Up</a></div>
+        </div>
+
+      </nav>
+
+
+
+  </header>
+
+  <main>
+    <section class="landing">
+      <div class="landing__container">
+        <div class="landing__infos">
+          <h1 class="landing__tittle">
+            More than just shorter links
+          </h1>
+          <h3 class="landing__subtitle">
+            Build your brand’s recognition and get detailed insights
+            on how your links are performing.
+          </h3>
+          <div class="landing__button"><a href="#"> Get Started </a></div>
+        </div>
+        <div class="landing__container-image">
+          <img class='landing__imagem' src="images/illustration-working.svg" alt="" srcset="">
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="links">
+
+      <div class="links">
+
+        <div class="input__container">
+          <div class="input__item">
+            <input placeholder="Shorten a link here..." type="text" class="search" id="search">
+            <button class="input__buton" id="inputSearch">Shorten It!</button>
+          </div>
+
+          <p id="erro"></p>
+        </div>
+
+        <!-- <div class="button__dlt"> <button class="button_copy deleta" class="copy">Delete!</button> </div> -->
+
+        <div id="linkcontainer">
+          <!--         <div class="link__container">
+          <div class="link-item" id="url">
+            <span>https://www.exemplo.com.br</span> 
+          </div>
+          <div class="link-item-convertido">
+            <span>https://www.exemplo.com.br</span> 
+          <button class="button_copy">Copy!</button>
+          </div>
+        </div>
+        <div class="link__container">
+          <div class="link-item" id="url">
+            <span>https://www.exemplo.com.br</span> 
+          </div>
+          <div class="link-item-convertido">
+            <span id="urlconvertido">https://www.exemplo.com.br</span> 
+          <button class="button_copy" class="copy">Copy!</button>
+          </div>
+        </div>
+        <div class="link__container">
+          <div class="link-item" id="url">
+            <span>https://www.exemplo.com.br</span> 
+          </div>
+          <div class="link-item-convertido">
+            <span id="urlconvertido">https://www.exemplo.com.br</span> 
+          <button class="button_copy" class="copy">Copy!</button>
+          </div>
+        </div> -->
+        </div>
+      </div>
+    </section>
+
+
+    <section id="statistics">
+
+      <div class="details__container">
+        <div class="details__content">
+          <h2 class="details__title">Advanced Statistics</h2>
+          <p class="details__desc">Track how your links are performing across the web with our
+            advanced statistics dashboard.</p>
+        </div>
+
+        <div class="infos__container">
+          <div class="infos__card">
+            <img src="images/icon-brand-recognition.svg">
+
+            <h3> Brand Recognition </h3>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+          
+          <div class="infos__card">
+            <img src="images/icon-detailed-records.svg">
+
+            <h3> Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.
+            </p>
+          </div>
+
+          <div class="infos__card">
+            <img src="images/icon-fully-customizable.svg">
+
+            <h3> Fully Customizable </h3>
+            <p>
+              Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="boost">
+      <div class="boost__container">
+        <h2>Boost your links today</h2>
+        <div class="landing__button"><a href="#"> Get Started </a></div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__container">
+
+      <h5>Shortly</h5>
+
+      <div class="footer__itens-container">
+
+        <div class="footer__itens">
+          <h4>Features</h4>
+          <ul>
+            <li class="footer__links"><a href="#">Link Shortening</a></li>
+            <li class="footer__links"><a href="#">Branded Links</a></li>
+            <li class="footer__links"><a href="#">Analytics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__itens">
+          <h4>Resources</h4>
+          <ul>
+            <li class="footer__links"><a href="#">Link Shortening</a></li>
+            <li class="footer__links"><a href="#">Branded Links</a></li>
+            <li class="footer__links"><a href="#">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__itens">
+          <h4>Company</h4>
+          <ul>
+            <li class="footer__links"><a href="#">About</a></li>
+            <li class="footer__links"><a href="#">Our Team</a></li>
+            <li class="footer__links"><a href="#">Careers</a></li>
+            <li class="footer__links"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer_socials">
+        <a href="#"> <img src="images/icon-facebook.svg" alt="" srcset=""></a>
+        <a href="#"> <img src="images/icon-twitter.svg" alt="" srcset=""></a>
+        <a href="#"> <img src="images/icon-pinterest.svg" alt="" srcset=""></a>
+        <a href="#"> <img src="images/icon-instagram.svg" alt="" srcset=""></a>
+      </div>
+
+    </div>
+
+
+
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Vinicius Webster</a>.
+  </div>
+
+  <script src="script/main.js"></script>
+  <script src="script/menuMobile.js"></script>
+</body>
+
+</html>
