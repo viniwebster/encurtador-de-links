@@ -36,10 +36,8 @@ function adicionaLink(linkOriginal, linkCurto) {
     </div>
   </div>`
 
-  localStorage.setItem('divLinks', JSON.stringify(divLinks));
 }
 
-containerLinks.innerHTML = JSON.parse(localStorage.getItem('divLinks'));
 
 function copiaTexto(linkConvertido) {  
     let texto = linkConvertido;
@@ -53,11 +51,5 @@ function trocaCorBotaoCopiar(botao) {
     setTimeout(() => {
       botao.style.backgroundColor = ""
       botao.textContent = "Copy!"
-    }, 1000);
-}
-
-
-function removeDaTela (botao){
-  botao.parentNode.parentNode.remove()
-  console.log(botao.parentNode.parentNode);
+    }, 2000);
 }
